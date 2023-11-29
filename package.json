@@ -5,8 +5,8 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "lint": "eslint ../../../Desktop/ci-template",
-    "lint:fix": "eslint ../../../Desktop/ci-template --fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest",
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage",
